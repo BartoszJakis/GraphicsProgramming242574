@@ -1,0 +1,21 @@
+# ninja log v5
+1	1138	7182852171621379	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-mkdir	eb5981cce230d0fc
+1	1138	7182852171621379	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-mkdir	eb5981cce230d0fc
+1140	16718	7182852327440602	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-download	5f146bc1da03a779
+1140	16718	7182852327440602	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-download	5f146bc1da03a779
+16718	17817	0	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-update	492b86e52615f9bb
+16718	17817	0	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-update	492b86e52615f9bb
+17817	18260	7182852342881160	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-patch	44c5abf9e1a7a2f0
+17817	18260	7182852342881160	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-patch	44c5abf9e1a7a2f0
+18260	18736	7182852347618473	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-configure	c2d928711f3cd46c
+18260	18736	7182852347618473	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-configure	c2d928711f3cd46c
+18736	19195	7182852352228547	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-build	6ae13ab77fd9fabe
+18736	19195	7182852352228547	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-build	6ae13ab77fd9fabe
+19195	19691	7182852357159290	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-install	1d46b49761681d0e
+19195	19691	7182852357159290	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-install	1d46b49761681d0e
+19691	20150	7182852361773714	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-test	f247e2f972949b9e
+19691	20150	7182852361773714	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-test	f247e2f972949b9e
+20150	20828	7182852368528439	CMakeFiles/glfw-populate-complete	d8466537e2653114
+20150	20828	7182852368528439	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-done	d8466537e2653114
+20150	20828	7182852368528439	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glfw-subbuild/CMakeFiles/glfw-populate-complete	d8466537e2653114
+20150	20828	7182852368528439	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-done	d8466537e2653114

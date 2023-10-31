@@ -1,0 +1,21 @@
+# ninja log v5
+1	1165	7182854928690200	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-mkdir	aad784ebad53e0f3
+1	1165	7182854928690200	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-mkdir	aad784ebad53e0f3
+1166	61765	7182855534702784	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-download	b2b4fdebe5df5b45
+1166	61765	7182855534702784	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-download	b2b4fdebe5df5b45
+61774	62833	0	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-update	5002f07adeb29c7f
+61774	62833	0	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-update	5002f07adeb29c7f
+62833	63296	7182855550020511	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-patch	6413aea21a595b3b
+62833	63296	7182855550020511	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-patch	6413aea21a595b3b
+63296	63727	7182855554311601	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-configure	7246dd0e4a30cf83
+63296	63727	7182855554311601	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-configure	7246dd0e4a30cf83
+63727	64187	7182855558931976	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-build	d567ec7bb07f427f
+63727	64187	7182855558931976	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-build	d567ec7bb07f427f
+64187	64642	7182855563478355	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-install	c8b36c2f9f7e4381
+64187	64642	7182855563478355	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-install	c8b36c2f9f7e4381
+64643	65155	7182855568581026	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-test	47941f1681d812c5
+64643	65155	7182855568581026	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-test	47941f1681d812c5
+65156	65874	7182855575800289	CMakeFiles/spdlog-populate-complete	b50ca9aaebb76e1e
+65156	65874	7182855575800289	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-done	b50ca9aaebb76e1e
+65156	65874	7182855575800289	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate-complete	b50ca9aaebb76e1e
+65156	65874	7182855575800289	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-done	b50ca9aaebb76e1e
