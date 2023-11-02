@@ -1,21 +1,37 @@
 # ninja log v5
 1	894	7182852521169059	glm-populate-prefix/src/glm-populate-stamp/glm-populate-mkdir	4fda56d9a9c3fce8
+1	560	0	glm-populate-prefix/src/glm-populate-stamp/glm-populate-update	f1ddf5166a8dcf86
 1	894	7182852521169059	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-mkdir	4fda56d9a9c3fce8
+561	914	7205538309781105	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch	cce1b28ef231c936
+1990	2355	7205538324201006	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-test	5cace05620d1d5e6
 895	31340	7182852825640937	glm-populate-prefix/src/glm-populate-stamp/glm-populate-download	14b9a9447306e135
 895	31340	7182852825640937	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-download	14b9a9447306e135
-31350	32357	0	glm-populate-prefix/src/glm-populate-stamp/glm-populate-update	f1ddf5166a8dcf86
-31350	32357	0	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-update	f1ddf5166a8dcf86
-32358	32804	7182852840303535	glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch	cce1b28ef231c936
-32358	32804	7182852840303535	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch	cce1b28ef231c936
-32804	33313	7182852845404729	glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure	ceba9226799a58bf
-32804	33313	7182852845404729	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure	ceba9226799a58bf
-33313	33734	7182852849591788	glm-populate-prefix/src/glm-populate-stamp/glm-populate-build	bf63d74c5b00cdc5
-33313	33734	7182852849591788	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-build	bf63d74c5b00cdc5
-33735	34166	7182852853949637	glm-populate-prefix/src/glm-populate-stamp/glm-populate-install	5bc3bf9a4ae9b747
-33735	34166	7182852853949637	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-install	5bc3bf9a4ae9b747
-34166	34593	7182852858156720	glm-populate-prefix/src/glm-populate-stamp/glm-populate-test	5cace05620d1d5e6
-34166	34593	7182852858156720	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-test	5cace05620d1d5e6
-34593	35275	7182852865030730	CMakeFiles/glm-populate-complete	bc5548a47a478baf
-34593	35275	7182852865030730	glm-populate-prefix/src/glm-populate-stamp/glm-populate-done	bc5548a47a478baf
-34593	35275	7182852865030730	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glm-subbuild/CMakeFiles/glm-populate-complete	bc5548a47a478baf
-34593	35275	7182852865030730	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-done	bc5548a47a478baf
+1	560	0	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-update	f1ddf5166a8dcf86
+561	914	7205538309781105	glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch	cce1b28ef231c936
+1293	1612	7205538316759201	glm-populate-prefix/src/glm-populate-stamp/glm-populate-build	bf63d74c5b00cdc5
+914	1293	7205538313534145	glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure	ceba9226799a58bf
+2356	2867	7205538329314319	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glm-subbuild/CMakeFiles/glm-populate-complete	bc5548a47a478baf
+914	1293	7205538313534145	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure	ceba9226799a58bf
+1293	1612	7205538316759201	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-build	bf63d74c5b00cdc5
+1612	1990	7205538320522104	glm-populate-prefix/src/glm-populate-stamp/glm-populate-install	5bc3bf9a4ae9b747
+1612	1990	7205538320522104	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-install	5bc3bf9a4ae9b747
+1990	2355	7205538324201006	glm-populate-prefix/src/glm-populate-stamp/glm-populate-test	5cace05620d1d5e6
+2356	2867	7205538329314319	CMakeFiles/glm-populate-complete	bc5548a47a478baf
+2356	2867	7205538329314319	glm-populate-prefix/src/glm-populate-stamp/glm-populate-done	bc5548a47a478baf
+2356	2867	7205538329314319	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-done	bc5548a47a478baf
+1	18003	0	glm-populate-prefix/src/glm-populate-stamp/glm-populate-update	f1ddf5166a8dcf86
+1	18003	0	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-update	f1ddf5166a8dcf86
+18003	18360	7205601458823964	glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch	cce1b28ef231c936
+18003	18360	7205601458823964	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch	cce1b28ef231c936
+18360	18700	7205601462204400	glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure	ceba9226799a58bf
+18360	18700	7205601462204400	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure	ceba9226799a58bf
+18700	19044	7205601465651419	glm-populate-prefix/src/glm-populate-stamp/glm-populate-build	bf63d74c5b00cdc5
+18700	19044	7205601465651419	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-build	bf63d74c5b00cdc5
+19045	19385	7205601469068548	glm-populate-prefix/src/glm-populate-stamp/glm-populate-install	5bc3bf9a4ae9b747
+19045	19385	7205601469068548	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-install	5bc3bf9a4ae9b747
+19385	19841	7205601473620361	glm-populate-prefix/src/glm-populate-stamp/glm-populate-test	5cace05620d1d5e6
+19385	19841	7205601473620361	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-test	5cace05620d1d5e6
+19842	20399	7205601479208324	CMakeFiles/glm-populate-complete	bc5548a47a478baf
+19842	20399	7205601479208324	glm-populate-prefix/src/glm-populate-stamp/glm-populate-done	bc5548a47a478baf
+19842	20399	7205601479208324	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glm-subbuild/CMakeFiles/glm-populate-complete	bc5548a47a478baf
+19842	20399	7205601479208324	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-done	bc5548a47a478baf

@@ -1,21 +1,37 @@
 # ninja log v5
 0	842	7182852883000046	imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-mkdir	dd5e69b442a9f8e3
+1	527	0	imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-update	a85def2ee1b4f5cb
+1939	2296	7205538358917799	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-test	7957963a20c53bcc
 0	842	7182852883000046	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-mkdir	dd5e69b442a9f8e3
-843	199500	7182854869578466	imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-download	bfacafa6895fc515
 843	199500	7182854869578466	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-download	bfacafa6895fc515
-199503	200470	0	imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-update	a85def2ee1b4f5cb
-199503	200470	0	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-update	a85def2ee1b4f5cb
-200471	200933	7182854883867955	imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-patch	6dabdbc0a406c8c6
-200471	200933	7182854883867955	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-patch	6dabdbc0a406c8c6
-200933	201374	7182854888321859	imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-configure	fe325068272a81b2
-200933	201374	7182854888321859	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-configure	fe325068272a81b2
-201374	201857	7182854893131820	imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-build	80ab5639703096de
-201374	201857	7182854893131820	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-build	80ab5639703096de
-201857	202327	7182854897839453	imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-install	4067596b7af078c8
-201857	202327	7182854897839453	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-install	4067596b7af078c8
-202327	202797	7182854902556232	imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-test	7957963a20c53bcc
-202327	202797	7182854902556232	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-test	7957963a20c53bcc
-202798	203479	7182854909372528	CMakeFiles/imgui-populate-complete	7bd1cdc16fbee44f
-202798	203479	7182854909372528	imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-done	7bd1cdc16fbee44f
-202798	203479	7182854909372528	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/imgui-subbuild/CMakeFiles/imgui-populate-complete	7bd1cdc16fbee44f
-202798	203479	7182854909372528	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-done	7bd1cdc16fbee44f
+527	870	7205538344709707	imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-patch	6dabdbc0a406c8c6
+843	199500	7182854869578466	imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-download	bfacafa6895fc515
+527	870	7205538344709707	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-patch	6dabdbc0a406c8c6
+1	527	0	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-update	a85def2ee1b4f5cb
+870	1239	7205538348409217	imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-configure	fe325068272a81b2
+870	1239	7205538348409217	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-configure	fe325068272a81b2
+1240	1582	7205538351845577	imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-build	80ab5639703096de
+2296	2815	7205538364166230	CMakeFiles/imgui-populate-complete	7bd1cdc16fbee44f
+1240	1582	7205538351845577	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-build	80ab5639703096de
+1582	1939	7205538355380549	imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-install	4067596b7af078c8
+1582	1939	7205538355380549	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-install	4067596b7af078c8
+1939	2296	7205538358917799	imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-test	7957963a20c53bcc
+2296	2815	7205538364166230	imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-done	7bd1cdc16fbee44f
+2296	2815	7205538364166230	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/imgui-subbuild/CMakeFiles/imgui-populate-complete	7bd1cdc16fbee44f
+2296	2815	7205538364166230	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-done	7bd1cdc16fbee44f
+1	774	0	imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-update	a85def2ee1b4f5cb
+1	774	0	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-update	a85def2ee1b4f5cb
+774	1153	7205601497324122	imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-patch	6dabdbc0a406c8c6
+774	1153	7205601497324122	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-patch	6dabdbc0a406c8c6
+1153	1511	7205601500904450	imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-configure	fe325068272a81b2
+1153	1511	7205601500904450	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-configure	fe325068272a81b2
+1511	1875	7205601504535931	imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-build	80ab5639703096de
+1511	1875	7205601504535931	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-build	80ab5639703096de
+1875	2224	7205601508022842	imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-install	4067596b7af078c8
+1875	2224	7205601508022842	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-install	4067596b7af078c8
+2224	2573	7205601511518753	imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-test	7957963a20c53bcc
+2224	2573	7205601511518753	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-test	7957963a20c53bcc
+2573	3139	7205601517165499	CMakeFiles/imgui-populate-complete	7bd1cdc16fbee44f
+2573	3139	7205601517165499	imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-done	7bd1cdc16fbee44f
+2573	3139	7205601517165499	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/imgui-subbuild/CMakeFiles/imgui-populate-complete	7bd1cdc16fbee44f
+2573	3139	7205601517165499	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-done	7bd1cdc16fbee44f

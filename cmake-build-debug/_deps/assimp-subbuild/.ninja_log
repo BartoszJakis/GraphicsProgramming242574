@@ -1,21 +1,37 @@
 # ninja log v5
 1	1050	7182850460916024	assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-mkdir	eeaa150b2baaffeb
-1	1050	7182850460916024	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-mkdir	eeaa150b2baaffeb
+1	555	0	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-update	82fab50c40bb6620
 1051	151194	7182851962364753	assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-download	1ebca9477f940ab7
+1	1050	7182850460916024	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-mkdir	eeaa150b2baaffeb
+555	936	7205538235629301	assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-patch	71a06fab9dcce22e
 1051	151194	7182851962364753	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-download	1ebca9477f940ab7
-151203	152299	0	assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-update	82fab50c40bb6620
-151203	152299	0	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-update	82fab50c40bb6620
-152300	152755	7182851977950572	assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-patch	71a06fab9dcce22e
-152300	152755	7182851977950572	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-patch	71a06fab9dcce22e
-152755	153211	7182851982519358	assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-configure	efed3dd6ba3a81f7
-152755	153211	7182851982519358	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-configure	efed3dd6ba3a81f7
-153211	153771	7182851988058389	assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-build	58bfdc9232f1bf05
-153211	153771	7182851988058389	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-build	58bfdc9232f1bf05
-153772	154470	7182851994942401	assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-install	68e495541fd41319
-153772	154470	7182851994942401	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-install	68e495541fd41319
-154471	155098	7182852001215141	assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-test	c4ca23008ef05514
-154471	155098	7182852001215141	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-test	c4ca23008ef05514
-155099	155895	7182852009272129	CMakeFiles/assimp-populate-complete	8409003725aeff0e
-155099	155895	7182852009272129	assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-done	8409003725aeff0e
-155099	155895	7182852009272129	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/assimp-subbuild/CMakeFiles/assimp-populate-complete	8409003725aeff0e
-155099	155895	7182852009272129	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-done	8409003725aeff0e
+1	555	0	assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-update	82fab50c40bb6620
+555	936	7205538235629301	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-patch	71a06fab9dcce22e
+937	1292	7205538239185090	assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-configure	efed3dd6ba3a81f7
+1293	1635	7205538242607052	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-build	58bfdc9232f1bf05
+937	1292	7205538239185090	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-configure	efed3dd6ba3a81f7
+1293	1635	7205538242607052	assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-build	58bfdc9232f1bf05
+1635	2000	7205538246259964	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-install	68e495541fd41319
+1635	2000	7205538246259964	assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-install	68e495541fd41319
+2000	2383	7205538250081873	assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-test	c4ca23008ef05514
+2000	2383	7205538250081873	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-test	c4ca23008ef05514
+2383	2894	7205538255221503	CMakeFiles/assimp-populate-complete	8409003725aeff0e
+2383	2894	7205538255221503	assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-done	8409003725aeff0e
+2383	2894	7205538255221503	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/assimp-subbuild/CMakeFiles/assimp-populate-complete	8409003725aeff0e
+2383	2894	7205538255221503	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-done	8409003725aeff0e
+1	749	0	assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-update	82fab50c40bb6620
+1	749	0	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-update	82fab50c40bb6620
+750	1084	7205601207256406	assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-patch	71a06fab9dcce22e
+750	1084	7205601207256406	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-patch	71a06fab9dcce22e
+1084	1428	7205601210671812	assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-configure	efed3dd6ba3a81f7
+1084	1428	7205601210671812	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-configure	efed3dd6ba3a81f7
+1428	1776	7205601214164643	assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-build	58bfdc9232f1bf05
+1428	1776	7205601214164643	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-build	58bfdc9232f1bf05
+1777	2144	7205601217855551	assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-install	68e495541fd41319
+1777	2144	7205601217855551	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-install	68e495541fd41319
+2144	2493	7205601221336278	assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-test	c4ca23008ef05514
+2144	2493	7205601221336278	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-test	c4ca23008ef05514
+2494	3008	7205601226493363	CMakeFiles/assimp-populate-complete	8409003725aeff0e
+2494	3008	7205601226493363	assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-done	8409003725aeff0e
+2494	3008	7205601226493363	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/assimp-subbuild/CMakeFiles/assimp-populate-complete	8409003725aeff0e
+2494	3008	7205601226493363	C:/Users/48534/Desktop/grafika - 5sem/Graphics programming/GraphicsProgramming/GraphicsProgramming242574/cmake-build-debug/_deps/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-done	8409003725aeff0e
