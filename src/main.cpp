@@ -47,7 +47,7 @@ void generateSierpinskiTriangle(Shader newShader, glm::mat4 model, int maxRec, i
         glDrawArrays(GL_TRIANGLES, 0, 12);
         return;
     }
-    
+
     if (curRec == 0) {
         int modelLoc = glGetUniformLocation(newShader.ID, "model");
         glm::mat4 largestTriangleModel = glm::mat4(1.0f);
@@ -216,21 +216,22 @@ int main()
         ImGui::NewFrame();
 
         static int recursion = 0, xAxis = 0, yAxis = 0;
-        static ImVec4 fractalColor = ImVec4(9.0f, 0.1f, 0.4f, 1.0f);
+        static ImVec4 fractalColor = ImVec4(2.0f, 0.1f, 1.4f, 1.5f);
+        int colorLoc = glGetUniformLocation(ourShader.ID, "fractalColor");
+        glUniform4f(colorLoc, fractalColor.x, fractalColor.y, fractalColor.z, fractalColor.w);
 
         ImGui::SliderInt("X AXIS", &xAxis, 1, 360);
         ImGui::SliderInt("Y AXIS", &yAxis, 1, 360);
         ImGui::SliderInt("RECURSION", &recursion, 0, 10);
-        if (ImGui::ColorEdit3("FRACTAL COLOR", (float*)&fractalColor)) {
-        }
+        ImGui::ColorEdit3("FRACTAL COLOR", (float*)&fractalColor);
 
         glm::mat4 model         = glm::mat4(1.0f);
         glm::mat4 view          = glm::mat4(1.0f);
         glm::mat4 projection    = glm::mat4(1.0f);
 
 
-        model = glm::rotate(model, glm::radians((float)xAxis), glm::vec3(1.0f, 0.0f, 0.0f));
-        model = glm::rotate(model, glm::radians((float)yAxis), glm::vec3(0.0f, 1.0f, 0.0f));
+        model = glm::rotate(model, glm::radians((float)xAxis), glm::vec3(0.0f, 1.0f, 0.0f));
+        model = glm::rotate(model, glm::radians((float)yAxis), glm::vec3(1.0f, 0.0f, 0.0f));
 
         view = glm::translate(view, glm::vec3(0.0f, 0.0f, -3.0f));
         projection = glm::perspective(glm::radians(45.0f), 800.0f / 600.0f, 0.1f, 100.0f);
@@ -254,6 +255,9 @@ int main()
 
 
         ourShader.use();
+
+        glUniform1i(glGetUniformLocation(ourShader.ID, "texture1"), 0);
+
         ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
 
 
