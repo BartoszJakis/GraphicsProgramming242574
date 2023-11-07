@@ -9,7 +9,6 @@
 #include "imgui.h"
 #include "imgui_impl/imgui_impl_glfw.h"
 #include "imgui_impl/imgui_impl_opengl3.h"
-
 #define IMGUI_IMPL_OPENGL_LOADER_GLAD
 
 // About OpenGL function loaders: modern OpenGL doesn't have a standard header file and requires individual function pointers to be loaded manually.
@@ -30,6 +29,38 @@ void processInput(GLFWwindow *window);
 // settings
 const unsigned int SCR_WIDTH = 1280;
 const unsigned int SCR_HEIGHT = 1280;
+
+
+
+
+glm::vec3 translations[] = {
+        glm::vec3(0.0f, -2.0f * sqrt(3.0f) / 6.0f, 0.0f),
+        glm::vec3(-0.5f, sqrt(3.0f) / 6.0f, 0.0f),
+        glm::vec3(0.5f, sqrt(3.0f) / 6.0f, 0.0f),
+        glm::vec3(0.0f, 0.0f, sqrt(6.0f) / 3.0f),
+};
+
+void generateSierpinskiTriangle(Shader newShader, glm::mat4 model, int maxRec, int curRec) {
+    if (curRec >= maxRec) {
+        int modelLoc = glGetUniformLocation(newShader.ID, "model");
+        glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
+        glDrawArrays(GL_TRIANGLES, 0, 12);
+        return;
+    }
+    
+    if (curRec == 0) {
+        int modelLoc = glGetUniformLocation(newShader.ID, "model");
+        glm::mat4 largestTriangleModel = glm::mat4(1.0f);
+        glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(largestTriangleModel));
+        glDrawArrays(GL_TRIANGLES, 12, 6);
+    }
+
+    for (size_t i = 0; i < 4; i++) {
+        glm::mat4 newModel = glm::scale(model, glm::vec3(0.5f));
+        newModel = glm::translate(newModel, translations[i]);
+        generateSierpinskiTriangle(newShader, newModel, maxRec, curRec + 1);
+    }
+}
 
 int main()
 {
@@ -84,41 +115,34 @@ int main()
     // Setup style
     ImGui::StyleColorsDark();
 
-    // build and compile our shader zprogram
-    // ------------------------------------
+
     Shader ourShader("res/shaders/texture.vert", "res/shaders/texture.frag");
 
-    // set up vertex data (and buffer(s)) and configure vertex attributes
-    // ------------------------------------------------------------------
+    float a = 1.0f;
+
     float vertices[] = {
+            // Pierwszy trójkąt
+            a / 2, float(a * sqrt(3)) / 6, 0.0f,               1.0f, 1.0f, // C
+            -a / 2, float(a * sqrt(3)) / 6, 0.0f,              0.0f, 0.0f, // D
+            0.0f, float(-a * 2 * sqrt(3)) / 6, 0.0f,        1.0f, 0.0f, // B
 
-            -0.5f, -0.5f, -0.5f, 0.0f, 0.0f,
-            0.5f, -0.5f, -0.5f, 1.0f, 0.0f,
-            0.5f, -0.5f, 0.5f, 1.0f, 1.0f,
+            // Drugi trójkąt
+            a / 2, float(a * sqrt(3)) / 6, 0.0f,               1.0f, 1.0f, // C
+            -a / 2, float(a * sqrt(3)) / 6, 0.0f,              0.0f, 0.0f, // D
+            0.0f, 0.0f, float(a * sqrt(6)) / 3,           1.0f, 0.0f, // A
 
-            -0.5f, -0.5f, -0.5f, 0.0f, 0.0f,
-            0.5f, -0.5f, 0.5f, 1.0f, 1.0f,
-            -0.5f, -0.5f, 0.5f, 0.0f, 1.0f,
+            // Trzeci trójkąt
+            0.0f, float(-a * 2 * sqrt(3)) / 6, 0.0f,        1.0f, 1.0f, // B
+            0.0f, 0.0f, float(a * sqrt(6)) / 3,           0.0f, 0.0f, // A
+            -a / 2, float(a * sqrt(3)) / 6, 0.0f,              1.0f, 0.0f, // D
 
-
-            0.0f, 0.5f, 0.0f, 0.5f, 0.5f,
-
-            -0.5f, -0.5f, -0.5f, 0.0f, 0.0f,
-            0.5f, -0.5f, -0.5f, 1.0f, 0.0f,
-            0.0f, 0.5f, 0.0f, 0.5f, 0.5f,
-
-            0.5f, -0.5f, -0.5f, 1.0f, 0.0f,
-            0.5f, -0.5f, 0.5f, 1.0f, 1.0f,
-            0.0f, 0.5f, 0.0f, 0.5f, 0.5f,
-
-            0.5f, -0.5f, 0.5f, 1.0f, 1.0f,
-            -0.5f, -0.5f, 0.5f, 0.0f, 1.0f,
-            0.0f, 0.5f, 0.0f, 0.5f, 0.5f,
-
-            -0.5f, -0.5f, 0.5f, 0.0f, 1.0f,
-            -0.5f, -0.5f, -0.5f, 0.0f, 0.0f,
-            0.0f, 0.5f, 0.0f, 0.5f, 0.5f
+            // Czwarty trójkąt
+            0.0f, float(-a * 2 * sqrt(3)) / 6, 0.0f,        1.0f, 1.0f, // B
+            a / 2, float(a * sqrt(3)) / 6, 0.0f,               1.0f, 0.0f, // C
+            0.0f, 0.0f, float(a * sqrt(6)) / 3,           0.0f, 0.0f, // A
     };
+
+
 
     unsigned int VBO, VAO;
     glGenVertexArrays(1, &VAO);
@@ -128,35 +152,32 @@ int main()
     glBindVertexArray(VAO);
 
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
-    glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
+    glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_DYNAMIC_DRAW);
 
 
 
-    // position attribute
+
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)0);
     glEnableVertexAttribArray(0);
-    // color attribute
+
     glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)(3 * sizeof(float)));
     glEnableVertexAttribArray(1);
 
 
 
-    // load and create a texture
-    // -------------------------
     unsigned int texture1;
     glGenTextures(1, &texture1);
-    glBindTexture(GL_TEXTURE_2D, texture1); // all upcoming GL_TEXTURE_2D operations now have effect on this texture object
-    // set the texture wrapping parameters
+    glBindTexture(GL_TEXTURE_2D, texture1);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
-    // set texture filtering parameters
+
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-    // load image, create texture and generate mipmaps
+
 
     int width, height, nrChannels;
     stbi_set_flip_vertically_on_load(true);
-    unsigned char *data = stbi_load("res/textures/images.png", &width, &height, &nrChannels, 0);
+    unsigned char *data = stbi_load("res/textures/stone.jpg", &width, &height, &nrChannels, 0);
     if (data)
     {
         glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, data);
@@ -202,7 +223,7 @@ int main()
         ImGui::SliderInt("RECURSION", &recursion, 0, 10);
         if (ImGui::ColorEdit3("FRACTAL COLOR", (float*)&fractalColor)) {
         }
-        // create transformations
+
         glm::mat4 model         = glm::mat4(1.0f);
         glm::mat4 view          = glm::mat4(1.0f);
         glm::mat4 projection    = glm::mat4(1.0f);
@@ -215,8 +236,7 @@ int main()
         projection = glm::perspective(glm::radians(45.0f), 800.0f / 600.0f, 0.1f, 100.0f);
 
 
-        // render
-        // ------
+
 
         ImGui::Render();
         int display_w, display_h;
@@ -248,9 +268,8 @@ int main()
         ourShader.setMat4("projection", projection);
 
         glBindVertexArray(VAO);
-        glDrawArrays(GL_TRIANGLES, 0, 18);
 
-
+        generateSierpinskiTriangle(ourShader, model, recursion, 0);
         glfwSwapBuffers(window);
         glfwPollEvents();
     }
@@ -263,6 +282,7 @@ int main()
     ImGui_ImplGlfw_Shutdown();
     ImGui::DestroyContext();
     glfwTerminate();
+    glfwDestroyWindow(window);
     return 0;
 }
 
